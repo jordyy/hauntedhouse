@@ -238,8 +238,9 @@ const door = new THREE.Mesh(
 );
 door.position.y = 1;
 door.position.x = 1.65;
-door.rotation.y = 0.45;
-door.position.z = 1.73;
+door.rotation.x = -0.1;
+door.rotation.y = 0.35;
+door.position.z = 1.641;
 
 const doorMaterial = door.material;
 doorMaterial.color.set("#545151");
